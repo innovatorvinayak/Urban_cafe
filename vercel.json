@@ -1,12 +1,7 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "pnpm build:client",
   "outputDirectory": "dist/spa",
   "framework": "vite",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "installCommand": "pnpm install"
 }
 
